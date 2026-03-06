@@ -1,7 +1,16 @@
-import React from "react";
+import React from 'react'
+import Navbar from './components/Navbar'
+import {Routes} from "react-router"
 
 const App = () => {
-  return <div className="text-4xl">h1</div>;
-};
+  return (
+    <div className='text-4xl'>
+      <Navbar />
+      <Routes>
 
-export default App;
+      </Routes>
+    </div>
+  )
+}
+
+export default App
