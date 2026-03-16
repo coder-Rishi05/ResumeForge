@@ -5,22 +5,25 @@ const api = axios.create({
   withCredentials: true,
 });
 
-export const sendResumeToEmail = async (to, jobRole, applicantName, resume) => {
-  const res = await api.post(`api/email/send`, {
-    to,
-    jobRole,
-    applicantName,
-    resume,
+export const analyseResume = async (jobRole, resume) => {
+  const formData = new FormData();
+  formData.append("jobRole", jobRole);
+  formData.append("resume", resume);
+
+  const res = await api.post("/api/resume/analyse", formData, {
+    headers: { "Content-Type": "multipart/form-data" },
   });
   return res.data;
 };
 
-export const analyseResume = async (jobRole, resume) => {
+export const sendResumeToEmail = async (to, jobRole, applicantName, resume) => {
   const formData = new FormData();
+  formData.append("to", to);
   formData.append("jobRole", jobRole);
-  formData.append("resume", resume); // resume = File object hona chahiye
+  formData.append("applicantName", applicantName);
+  formData.append("resume", resume);
 
-  const res = await api.post("/api/resume/analyse", formData, {
+  const res = await api.post("/api/email/send", formData, {
     headers: { "Content-Type": "multipart/form-data" },
   });
   return res.data;
