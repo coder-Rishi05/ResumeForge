@@ -5,7 +5,12 @@ import cors from "cors";
 import emailRoute from "./src/routes/email.route.js";
 import resumeRouter from "./src/routes/resume.route.js";
 const app = express();
-app.use(cors());
+app.use(
+  cors({
+    origin: "http://localhost:5173",
+    credentials: true,
+  }),
+);
 
 app.use(express.json());
 
@@ -15,7 +20,6 @@ app.get("/", (req, res) => {
 
 app.use("/api/email", emailRoute);
 app.use("/api/resume", resumeRouter);
-
 
 app.listen(port, () => {
   console.log("server running at : ", port);
