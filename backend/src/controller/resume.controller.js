@@ -10,7 +10,7 @@ export const resumeAnalyse = async (req, res) => {
 
   const { jobRole } = req.body;
 
-  if (!req.file) {
+  if (!jobRole) {
     return res
       .status(400)
       .json({ success: false, message: "Job role required" });
@@ -33,6 +33,7 @@ export const resumeAnalyse = async (req, res) => {
   try {
     aiResult = await generateEmailAndAnalysis(resumeText, jobRole);
   } catch (error) {
+    console.log(error)
     return res.status(502).json({
       success: false,
       message: "AI response failed.",

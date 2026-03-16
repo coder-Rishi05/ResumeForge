@@ -102,7 +102,7 @@ export const sendEmailController = async (req, res) => {
   } catch (error) {
     return res.status(422).json({
       success: false,
-      message: "PDF se text extract nahi ho saka.",
+      message: "failed to extract the texts",
       error: error.message,
     });
   }
@@ -115,7 +115,7 @@ export const sendEmailController = async (req, res) => {
   } catch (error) {
     return res.status(502).json({
       success: false,
-      message: "AI se response nahi aaya.",
+      message: "AI response failed.",
       error: error.message,
     });
   }
@@ -147,7 +147,7 @@ export const sendEmailController = async (req, res) => {
     console.error("Email sending failed:", error.message);
     return res.status(500).json({
       success: false,
-      message: "Email send nahi ho saka.",
+      message: "Cant send email.",
       error: process.env.NODE_ENV === "development" ? error.message : undefined,
     });
   }
