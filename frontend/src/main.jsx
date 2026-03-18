@@ -4,11 +4,14 @@ import { BrowserRouter } from "react-router";
 
 import "./index.css";
 import App from "./App.jsx";
+import { ThemeProvider } from "./context/ThemeContext.jsx";
 
 createRoot(document.getElementById("root")).render(
   <BrowserRouter>
-    <StrictMode>
-      <App />
-    </StrictMode>
+    <ThemeProvider>
+      <StrictMode>
+        <App />
+      </StrictMode>
+    </ThemeProvider>
   </BrowserRouter>,
 );
