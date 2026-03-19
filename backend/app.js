@@ -7,7 +7,7 @@ import resumeRouter from "./src/routes/resume.route.js";
 const app = express();
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://resumeforge-1-c1t9.onrender.com",
     credentials: true,
   }),
 );
