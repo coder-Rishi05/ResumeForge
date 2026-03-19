@@ -8,8 +8,10 @@
 
 /* ─────────────────────────────────────────────
    LIGHT THEME (default)
+ 
    ───────────────────────────────────────────── */
-:root,
+
+   :root,
 [data-theme="light"] {
   --bg-base:        #f2f0eb;
   --bg-surface:     #ffffff;
