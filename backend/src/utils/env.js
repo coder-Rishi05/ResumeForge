@@ -1,1 +1,1 @@
-export const {PORT,EMAIL_USER,EMAIL_APP_PASSWORD,API_KEY} = process.env;
+export const {PORT,EMAIL_USER,EMAIL_APP_PASSWORD,API_KEY,BREVO_API_KEY} = process.env;
