@@ -1,8 +1,8 @@
 import axios from "axios";
 
 const api = axios.create({
-  // baseURL: "https://resumeforge-h8l7.onrender.com",
-  baseURL: "http://localhost:3000",
+  baseURL: "https://resumeforge-h8l7.onrender.com",
+  // baseURL: "http://localhost:3000",
   withCredentials: true,
 });
 

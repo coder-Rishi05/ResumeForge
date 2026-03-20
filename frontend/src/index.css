@@ -28,9 +28,9 @@
 [data-theme="light"] {
   /* Backgrounds — 4 layers, har ek slightly darker */
   --bg-base: #f2ececf3; /* page background */
-  --bg-surface: #170909d3; /* cards, modals */
+  --bg-surface: #fffffffb; /* cards, modals */
   --bg-surface-2: #f8f8f8; /* input backgrounds, nested sections */
-  --bg-hover: #f7f5f7e9; /* hover states */
+  --bg-hover: #f2f1f2a5; /* hover states */
   --bg-active: #ffffff; /* pressed / selected states */
 
   /* Borders */
@@ -42,12 +42,12 @@
   --text-primary: #18160f;
   --text-secondary: #6b6757;
   --text-muted: #a39f93;
-  --text-faint: #c8c4b8;
+  --text-faint: #646360;
   --text-inverse: #f0ede6;
 
   /* Accent — Gold (primary CTA color) */
-  --gold: #d4a832; /* slightly richer than before — more contrast */
-  --gold-hover: #c49a28; /* darker on hover — feels more "pressed" */
+  --gold: #e7bc45; /* slightly richer than before — more contrast */
+  --gold-hover: #eec44e; /* darker on hover — feels more "pressed" */
   --gold-active: #b48c20;
   --gold-fg: #1a1500; /* text on gold background */
   --gold-subtle: #fdf3d7; /* light gold tint for backgrounds */
@@ -92,10 +92,10 @@
    DARK THEME
    ───────────────────────────────────────── */
 [data-theme="dark"] {
-  --bg-base: #141310;
-  --bg-surface: #1c1a16;
+  --bg-base: #131312b6;
+  --bg-surface: #d3d2cf;
   --bg-surface-2: #201e19; /* fix — ye pehle missing tha */
-  --bg-hover: #252219;
+  --bg-hover: #171715;
   --bg-active: #2c2920;
 
   --border: #2e2b22;
@@ -133,13 +133,13 @@
   --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
   --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.5);
 
-  --nav-bg: rgba(20, 19, 16, 0.92);
+  --nav-bg: rgba(16, 15, 12, 0.92);
   --nav-border: #2e2b22;
-  --nav-text: #ede8d8;
-  --nav-muted: #6a6458;
+  --nav-text: #e8e6e2;
+  --nav-muted: #dedbd7;
 
   --input-bg: #1c1a16;
-  --input-border: #2e2b22;
+  --input-border: #e4ba3ed6;
   --input-border-focus: #d4a832;
   --input-placeholder: #4a4538;
   --input-text: #ede8d8;

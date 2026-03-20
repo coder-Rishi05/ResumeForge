@@ -90,7 +90,7 @@ const ResumeUpload = ({ value, onChange }) => {
               fontFamily: "DM Mono, monospace",
               fontSize: "9px",
               letterSpacing: "0.1em",
-              color: "var(--text-faint)",
+              color: "var(--text-primary)",
               textTransform: "uppercase",
               flexShrink: 0,
             }}

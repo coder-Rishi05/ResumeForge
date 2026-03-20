@@ -96,7 +96,7 @@ const Navbar = () => {
 
         {/* Free badge */}
         <div style={{
-          background: "var(--accent)",
+          background: "var(--bg-base)",
           color: "var(--accent-fg)",
           fontFamily: "DM Mono, monospace",
           fontSize: "9px",
