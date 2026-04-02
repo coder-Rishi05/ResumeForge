@@ -7,15 +7,6 @@
 ![Groq](https://img.shields.io/badge/AI-Groq%20LLaMA%203.3-F55036?style=flat-square)
 ![Brevo](https://img.shields.io/badge/Email-Brevo%20API-0B996E?style=flat-square)
 ![Render](https://img.shields.io/badge/Deploy-Render%20Free%20Tier-46E3B7?style=flat-square)
-# 📄 ResumeForge
-
-> An AI-powered resume analyser and HR outreach tool — built as a full-stack portfolio project demonstrating AI integration, file handling, and automated email delivery.
-
-![Node.js](https://img.shields.io/badge/Node.js-ES%20Modules-339933?style=flat-square&logo=node.js)
-![React](https://img.shields.io/badge/React-Vite-61DAFB?style=flat-square&logo=react)
-![Groq](https://img.shields.io/badge/AI-Groq%20LLaMA%203.3-F55036?style=flat-square)
-![Brevo](https://img.shields.io/badge/Email-Brevo%20API-0B996E?style=flat-square)
-![Render](https://img.shields.io/badge/Deploy-Render%20Free%20Tier-46E3B7?style=flat-square)
 
 ---
 
