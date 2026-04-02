@@ -525,6 +525,7 @@ This is a personal portfolio project — but feel free to fork it, learn from it
 
 <p align="center">Built with ❤️ by <strong>Rishi</strong></p>
 
+# Some looks of the project
 ### Home Page
 
 <img width="1903" height="906" alt="image" src="https://github.com/user-attachments/assets/70dc0849-9fc3-417e-a00d-9b36a767db67" />
@@ -540,3 +541,15 @@ This is a personal portfolio project — but feel free to fork it, learn from it
 ### Result Page
 
 <img width="1555" height="803" alt="image" src="https://github.com/user-attachments/assets/ddd6697a-e9ef-46af-9ad0-502e526cb145" />
+
+<img width="1813" height="848" alt="image" src="https://github.com/user-attachments/assets/e528224a-7015-4815-8c67-421270fcb6bc" />
+
+### Email Page
+
+<img width="1473" height="831" alt="image" src="https://github.com/user-attachments/assets/eea3b5e6-3604-45fb-bbea-5c6e661ac3f0" />
+
+### Analysis Page
+
+<img width="1150" height="828" alt="image" src="https://github.com/user-attachments/assets/1d1b5d60-1972-4983-acd0-2a7aafbeb14e" />
+
+---
